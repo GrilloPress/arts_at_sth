@@ -10,10 +10,11 @@ $gray-light:             #bbb;
 $gray-lighter:           lighten($gray-base, 93.5%); // #eee
 
 $brand-primary:         #005EB8;
+$brand-secondary:       #00A499;
 $brand-success:         #78BE20;
-$brand-info:            #009639;
+$brand-info:            #0072ce;
 $brand-warning:         #ED8B00;
-$brand-danger:          #DA291C;
+$brand-danger:          #ca0e00;
 $brand-grey:            #E8EDEE;
 $brand-grey-dark:       #425563;
 $brand-grey-mid:        #768692;
@@ -57,7 +58,7 @@ $font-size-h5:            20px;
 $font-size-h6:            18px;
 
 //** Unit-less `line-height` for use in components like buttons.
-$line-height-base:        1.846; // 20/14
+$line-height-base:        1.646; // 20/14
 //** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
 $line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
 
@@ -334,7 +335,7 @@ $container-desktop:            (940px + $grid-gutter-width);
 $container-md:                 $container-desktop;
 
 // Large screen / wide desktop
-$container-large-desktop:      (940px + $grid-gutter-width);
+$container-large-desktop:      (970px + $grid-gutter-width);
 //** For `$screen-lg-min` and up.
 $container-lg:                 $container-large-desktop;
 
@@ -378,7 +379,7 @@ $navbar-default-toggle-border-color:       transparent;
 // Inverted navbar
 // Reset inverted navbar basics
 $navbar-inverse-color:                      $gray-light;
-$navbar-inverse-bg:                         $brand-primary;
+$navbar-inverse-bg:                         $brand-secondary;
 $navbar-inverse-border:                     transparent;
 
 // Inverted navbar links
@@ -397,16 +398,15 @@ $navbar-inverse-brand-hover-bg:             transparent;
 
 // Inverted navbar toggle\
 $navbar-inverse-toggle-hover-bg:            transparent;
-$navbar-inverse-toggle-icon-bar-bg:         $gray-dark;
+$navbar-inverse-toggle-icon-bar-bg:         #FFF;
 $navbar-inverse-toggle-border-color:        transparent;
-
 
 //== Navs
 //
 //##
 
 //=== Shared nav styles
-$nav-link-padding:                          10px 15px;
+$nav-link-padding:                          8px 12px;
 $nav-link-hover-bg:                         $gray-lighter;
 
 $nav-disabled-link-color:                   $gray-light;
@@ -473,7 +473,7 @@ $pager-disabled-color:                 $pagination-disabled-color;
 
 $jumbotron-padding:              30px;
 $jumbotron-color:                inherit;
-$jumbotron-bg:                   #f9f9f9;
+$jumbotron-bg:                   #FFF;
 $jumbotron-heading-color:        $headings-color;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5));
 
@@ -774,15 +774,15 @@ $badge-border-radius:         10px;
 //##
 
 $breadcrumb-padding-vertical:   8px;
-$breadcrumb-padding-horizontal: 15px;
+$breadcrumb-padding-horizontal: 0;
 //** Breadcrumb background color
 $breadcrumb-bg:                 $body-bg;
 //** Breadcrumb text color
 $breadcrumb-color:              #ccc;
 //** Text color of current page in the breadcrumb
-$breadcrumb-active-color:       $gray-light;
+$breadcrumb-active-color:       $brand-grey-mid;
 //** Textual separator for between breadcrumb elements
-$breadcrumb-separator:          "/";
+$breadcrumb-separator:          ">";
 
 
 //== Carousel
