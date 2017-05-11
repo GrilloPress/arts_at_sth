@@ -2,9 +2,34 @@
 title: Arts@STH
 ---
 
-<section class="intro">
   <div class="container">
     <div class="row">
+      
+        <div class="col-md-12">
+          <header>
+            <h1>Artists</h1>
+            <p class="lead">subtitle</p>
+          </header>
+      
+        </div>
+
+    <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li class="active">Artists</li>
+      </ol>
+    </div>
+
+    </div>
+  </div>
+
+<section class="featured">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="subtle">Featured</h2>
+      </div>
+
       <div class="col-md-8">
         <% link_to "/artist.html"  do %>
           <%= image_tag "artists/geo_law.jpg", class: "img-responsive" %>
@@ -27,14 +52,17 @@ title: Arts@STH
 
     <div class="col-md-4">
       <%= image_tag "artists/geo_law.jpg", class: "img-responsive" %>
+      <div class="block"><%= link_to "Geo Law", "/artist.html" %></div> 
     </div>
     
     <div class="col-md-4">
       <%= image_tag "artists/charlotte_newton_.jpg", class: "img-responsive" %>
+      <div class="block"><%= link_to "Charlotte Newton", "/artist.html" %></div> 
     </div>
     
     <div class="col-md-4">
       <%= image_tag "artists/andy_brown.jpg", class: "img-responsive" %>
+      <div class="block"><%= link_to "Andy Brown", "/artist.html" %></div> 
     </div>
   </div>
 </div></section>
