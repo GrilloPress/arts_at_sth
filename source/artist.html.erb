@@ -1,0 +1,77 @@
+---
+title: Arts@STH
+---
+
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-md-12">
+          <header>
+            <h1>Artist's Name</h1>
+          </header>
+        </div>
+
+        <div class="col-md-12">
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Artists</a></li>
+            <li class="active">Artist's Name</li>
+          </ol>
+        </div>
+    </div>
+  </div>
+
+<section class="featured">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-7">
+        <p class="lead">Geo Law is a freelance illustrator who hails from the steel city of Sheffield and is based at S1 Artspace. </p>
+        <p>Geo works with a blend of references such as comic books, computer game characters and pop culture using mixed media all rooted in doodling. </p>
+        <p>Using his trusty pens, Geo has created artwork for digital production, print and even interior decor with mural works. His interests range from following forms of visual culture, art, music, film, books, drinking coffee and following the football.</p>
+      
+        <section class="art-work">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="subtle">Featured</h2>
+              <% link_to "/artist.html"  do %>
+                <%= image_tag "artists/geo_law.jpg", class: "img-responsive" %>
+              <% end %>
+            </div>
+
+            <div class="col-md-12">
+              <h2 class="subtle">Artwork</h2>
+            </div>
+            
+            <div class="col-md-6">
+              <%= image_tag "artists/Geo-Law-Leeds-Hosp9.jpg", class: "img-responsive img-spacer" %>
+            </div>
+
+            <div class="col-md-6">
+              <%= image_tag "artists/geo_law.jpg", class: "img-responsive img-spacer" %>
+            </div>
+
+            <div class="col-md-12">
+              <%= image_tag "artists/leeds-panorama1.jpg", class: "img-responsive img-spacer" %>
+            </div>
+          </div>
+        </section>
+      
+      </div>
+      
+      <div class="col-md-4 col-md-offset-1">
+        <aside class="sidebar"> 
+        <h3>Recent news</h3>
+        <ol class="list list-unstyled">
+          <li><a href="#">Volunteering opportunity</a></li>
+          <li><a href="#">New website released</a></li>
+        </ol>
+
+        <h3>Support us</h3>
+        <p>This is where the things live</p>
+      </aside>
+      </div>
+      
+    </div>
+  </div>
+</section>
