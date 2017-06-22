@@ -8,4 +8,17 @@
   
 }
 
-.feed-item-news {}
+
+// Frontpage news feed
+
+.list-feed-news {
+  
+  li {
+    
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    
+  }
+}
+

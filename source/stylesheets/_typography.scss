@@ -39,9 +39,17 @@ body {
 
 // Frontpage grey text headers to indicate sections
 
-.subtle {
+h2.subtle {
 
   font-size: 25px;
+  color: #a1a2a2;
+  margin: 1em 0;
+
+}
+
+h3.subtle {
+
+  font-size: 20px;
   color: #a1a2a2;
   margin: 1em 0;
 
